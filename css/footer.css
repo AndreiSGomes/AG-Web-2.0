@@ -1,0 +1,80 @@
+footer{
+    margin-top: 250px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(to right, #14213d, #000000) no-repeat;
+    min-height: 400px;
+    color: white;
+
+}
+.rodape{
+    display: flex;
+}
+.rodape .box{
+    flex-basis: 50%;
+    padding: 5px 100px;
+}
+.box h4{
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content {
+    margin: 20px 0 0 0;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.4s;
+    color: #ffffff;
+}
+.left .content .social a i:hover{
+    background: #797979;
+}
+.who {
+    position: absolute;
+    padding: 20% 0 0 43%;
+}
+.social {
+    text-align: center;
+}
+.social a {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 25px;
+}
+.social a:hover {
+    background: #bdccd4;
+    border-radius: 5%;
+    color: #14213d;
+}
+
+@media (max-width: 800px) {
+    .footer {
+        width: 80%;
+        position: relative;
+    }
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .who {
+        position: relative;
+        left: -23%;
+        
+    }
+}
+
+
